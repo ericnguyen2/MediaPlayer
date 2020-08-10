@@ -7,12 +7,13 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity2 extends AppCompatActivity {
 
     private Button button;
-
     MediaPlayer mediaPlayer;
+    ImageView psy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,9 @@ public class MainActivity2 extends AppCompatActivity {
                 openActivity1();
             }
         });
+
+        psy = findViewById(R.id.imageView);
+        psy.setImageResource(R.drawable.psy);
     }
 
     public void music(View view) {
