@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="16dp"
         android:text="Video Player"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="#3E3F40"
         android:textSize="32sp" />
 
     <FrameLayout
